@@ -32,11 +32,7 @@ public class Appliance {
     public String displayInfo() {
         return "Brand: "+brand+", Model: "+model+", Power Usage: "+powerUsage+" Watts";
     }
-
-    // displayInfo Method
-    // TODO: Implement a method that returns information about the appliance, including brand, model, and power usage.
-    // Check the tests for more details
-
+    
     public String isEcoFriendly() {
         if (powerUsage<400) {
             return "This appliance is eco-friendly";
